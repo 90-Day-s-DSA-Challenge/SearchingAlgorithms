@@ -32,7 +32,7 @@ public class SearchInRoatedSortedArray {
          i.e. start = 0, end = pivot-1. (we use pivot-1 because we have already check if pivot==target then its return)
 
          */
-        if(target > arr[0]){
+        if(target >= arr[0]){
             return binarySearch(arr, target, 0, pivot-1);
         }
 
