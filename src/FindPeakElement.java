@@ -3,7 +3,7 @@ public class FindPeakElement {
 //    https://leetcode.com/problems/find-peak-element/description/?envType=problem-list-v2&envId=binary-search
     public static void main(String[] args) {
         int[] nums = {1, 2, 1, 3, 5, 6, 4};
-        System.out.println(findPeak(nums));
+        System.out.println("Peak Index:"+findPeak(nums));
 
     }
 
