@@ -16,6 +16,7 @@ public class RowColMatrix2D {
 
     }
 
+//    Brute Force Approach
     public static int[] search2D(int[][] matrix, int target){
         int r = 0;
         int c = matrix.length-1; // start from last col
